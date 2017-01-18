@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="File Upload APIs Specs ====&gt; " timestamp="2016-11-10T16:15:59" hostname="localhost" time="16.253" errors="0" tests="8" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Verifies that the file to be uploaded meets user requirement" time="0.019" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Verifies that the provided token is valid" time="0.397" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Verifies that at the beginning the user shall not have any existing file associated with it" time="10.299" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Error Scenario - Verifies that an error is thrown when the file is missing in the request" time="0.283" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Error Scenario - Verifies that an error is thrown and user shall not be upload file with an invalid token" time="0.611" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Error Scenario - Verifies that an error is thrown and user shall not be upload file without a token" time="0.603" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Verifies that the user shall be able to upload a PNG file" time="4.03" />
+  <testcase classname="File Upload APIs Specs ====&gt; " name="Verifies that the file object has all the expected thumb URLs" time="0.008" />
+ </testsuite>
+ <testsuite name="File List APIs Specs ====&gt;" timestamp="2016-11-10T16:16:15" hostname="localhost" time="32.977" errors="0" tests="8" skipped="0" disabled="0" failures="0">
+  <testcase classname="File List APIs Specs ====&gt;" name="Error Scenario - Verifies that an error is thrown if token is not provided in the request" time="0.243" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Error Scenario - Verifies that an error is thrown if an invalid token is provided in the request" time="0.262" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Error Scenario - Verifies that an error is thrown if a token is provided with an invalid user in the request" time="0.275" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Verifies that file data is not available if the &quot;types&quot; of the file is set to any valid value except &quot;images&quot;" time="31.153" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Verifies that &quot;types = all&quot; returns a default file object and does not filter the list" time="0.378" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Verifies that setting &quot;types&quot; to any invalid value results in default file object" time="0.485" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Verifies that a valid successful file.list request with type &quot;images&quot; returns a valid file object" time="0.178" />
+  <testcase classname="File List APIs Specs ====&gt;" name="Verifies that the returned file object in file.list request matches the id and values of the uploaded file" time="0.002" />
+ </testsuite>
+ <testsuite name="File Delete APIs Specs ====&gt;" timestamp="2016-11-10T16:16:48" hostname="localhost" time="1.66" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Error Scenario - Verifies an error is thrown if a non existing/invalid file id is passed in file.delete request" time="0.125" />
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Error Scenario - Verifies that an error is thrown and the user shall not be able to delete a file is an invalid token is passed to the request" time="0.385" />
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Error Scenario - Verifies that an error is thrown and the user shall not be able to delete a file when token is not passed to the request" time="0.121" />
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Verifies that the user shall be able to delete file with a valid request" time="0.479" />
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Error Scenario - Verifies an error is thrown if a deleted file id is passed in file.delete request" time="0.379" />
+  <testcase classname="File Delete APIs Specs ====&gt;" name="Verifies that file object is returned empty in file.list request after the file is deleted" time="0.169" />
+ </testsuite>
+</testsuites>

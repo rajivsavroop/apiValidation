@@ -1,0 +1,25 @@
+{
+  "name": "slack_api_validation",
+  "version": "1.0.0",
+  "description": "Testing slack apis ",
+  "main": " ",
+  "scripts": {
+    "test": "jasmine "
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "Slack",
+    "Apis"
+  ],
+  "author": "Rajiv Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-fail-fast": "^2.0.0",
+    "jasmine-reporters": "^2.2.0",
+    "request": "^2.75.0"
+  }
+}
