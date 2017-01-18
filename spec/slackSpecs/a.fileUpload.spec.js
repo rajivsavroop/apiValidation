@@ -8,7 +8,7 @@ const path = require('path');
 const slackObj = {
     slackUrl:'https://slack.com/api/',
     fileBody:false,
-    token:'REGISTER FOR YOUR TOKEN"
+    token:'REGISTER FOR YOUR TOKEN',
     deletedFileId: false
 }
 
