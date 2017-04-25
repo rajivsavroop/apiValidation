@@ -1,4 +1,4 @@
-# apiValidation
+# Slack apiValidation
 Using jasmine framework to validate apis
 
 Medical industries like mine requires test engineers to validate "off the shelf" softwares in use for ex: gitlab, slack etc.
